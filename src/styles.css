@@ -18,13 +18,29 @@ input {
   width: 100%;
 }
 
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  font-size: 3rem;
+}
+
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 h3 {
-  font-size: 3rem;
-  margin-bottom: 5px;
+  font-size: 2rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 
 .card-grid {
